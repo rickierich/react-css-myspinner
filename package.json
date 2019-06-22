@@ -1,0 +1,27 @@
+{
+  "name": "react-css-myspinner",
+  "version": "1.0.0",
+  "description": "spinner stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickierich/react-css-myspinner.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "spinner"
+  ],
+  "author": "rickierich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickierich/react-css-myspinner/issues"
+  },
+  "homepage": "https://github.com/rickierich/react-css-myspinner#readme",
+  "devDependencies": {
+    "eslint": "^6.0.0"
+  }
+}
