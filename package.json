@@ -2,7 +2,9 @@
   "name": "react-css-myspinner",
   "version": "1.0.0",
   "description": "spinner stuff",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "sideEffects": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rimraf dist",
@@ -40,6 +42,7 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
+    "@typescript-eslint/parser": "^1.10.2",
     "eslint": "^6.0.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.17.3",
@@ -53,6 +56,13 @@
     "rollup": "^1.16.2",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.0.4",
+    "rollup-plugin-string": "^3.0.0",
     "rollup-plugin-terser": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=15"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
